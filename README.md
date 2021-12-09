@@ -20,6 +20,7 @@
 <h3>
     Olá!
 </h3>
-Este repositório conterá meu portfolio que está em construção e deve ficar pronto [e lindo] logo! Ansiosaaaaaaa =)<br>
+Este repositório conterá meu portfolio que está em construção e deve ficar pronto [e lindo] logo! Ansiosaaaaaaa =)
+
 Está sendo feito com HTML5, CSS3 e Angular CLI 13. Ao término, poderá ser acessado tanto em [https://ortegavan.github.io](https://ortegavan.github.io) quanto em [http://ortegavan.com.br](http://ortegavan.com.br).
 Aguarde!

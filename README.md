@@ -20,4 +20,7 @@
 <h3>
     Olá!
 </h3>
-Este repositório contém meu portfolio que, por enquanto, está feito com HTML5, CSS3 e JavaScript. Está sendo portado para Angular CLI 13. A versão atual pode ser acessada tanto em [https://ortegavan.github.io](https://ortegavan.github.io) quanto em [http://ortegavan.com.br](http://ortegavan.com.br).
+Este repositório contém meu portfolio que, por enquanto, está feito com HTML5, CSS3 e JavaScript. Está sendo portado para Angular CLI 13. A versão atual pode ser acessada nos links abaixo: 
+
+* [https://ortegavan.github.io](https://ortegavan.github.io)
+* [http://ortegavan.com.br](http://ortegavan.com.br)

@@ -31,21 +31,6 @@ p {
     line-height: 30px;
 }
 
-header {
-    height: 12vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header div {
-    flex-grow: 3;
-}
-
-header nav {
-    flex-grow: 1;
-}
-
 a {
     color: #2b2e4a;
     text-decoration: none;
@@ -63,6 +48,21 @@ a {
     max-width: 1440px;
     width: 80%;
     margin: auto;
+}
+
+header {
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    flex-grow: 3;
+}
+
+header nav {
+    flex-grow: 1;
 }
 
 .logo img {

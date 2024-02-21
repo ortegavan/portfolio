@@ -1,0 +1,13 @@
+section {
+    margin: auto;
+    margin-bottom: 32px;
+    width: 60vw;
+    display: flex;
+    gap: 32px;
+}
+
+section > div {
+    height: 200px;
+    width: 320px;
+    background-color: #eaeaea;
+}

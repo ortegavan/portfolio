@@ -12,10 +12,9 @@ h2 {
     font-optical-sizing: auto;
 }
 
-h1 {
-    text-align: center;
-}
-
 button {
     padding: 0 24px !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-optical-sizing: auto;
+    cursor: pointer;
 }

@@ -1,11 +1,29 @@
-div {
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h1 {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
 }
 
-h1 {
-    font-size: 3em;
-    font-weight: bold;
+section {
+    width: 100%;
+    display: flex;
+}
+
+section > div {
+    width: 50%;
+}
+
+.hero-text {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-text > div {
+    display: flex;
+    gap: 12px;
+}
+
+.hero-image img {
+    height: 70vh;
 }

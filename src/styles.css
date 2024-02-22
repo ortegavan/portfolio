@@ -7,14 +7,42 @@ body {
 
 body,
 h1,
-h2 {
-    font-family: "Montserrat", sans-serif !important;
+h2,
+button {
+    font-family: "Poppins", sans-serif !important;
     font-optical-sizing: auto;
+}
+
+h1 {
+    font-size: 1.8rem !important;
+    line-height: 2.6rem !important;
 }
 
 button {
     padding: 0 24px !important;
-    font-family: "Montserrat", sans-serif !important;
-    font-optical-sizing: auto;
     cursor: pointer;
+}
+
+.fundo-cinza {
+    background-color: #f5f5f5;
+}
+
+.pink {
+    color: #ff4986;
+}
+
+.center {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    line-height: 2rem;
+    padding: 4px 8px;
+    margin-top: 4px;
+    border-radius: 8px;
+}
+
+ul li:hover {
+    background-color: #f5f5f5;
 }

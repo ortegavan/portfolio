@@ -1,4 +1,11 @@
 section {
     display: flex;
-    justify-content: space-between;
+    gap: 40px;
+}
+
+section > div {
+    flex: 1;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #fff;
 }

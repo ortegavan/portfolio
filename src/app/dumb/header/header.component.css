@@ -1,3 +1,10 @@
+h1 {
+    font-family: "Architects Daughter", cursive !important;
+    /* font-family: "Waiting for the Sunrise", cursive !important; */
+    font-weight: 400;
+    font-style: normal;
+}
+
 .toolbar {
     position: fixed;
     z-index: 1000;

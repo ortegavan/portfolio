@@ -9,7 +9,7 @@ import { Title } from '@angular/platform-browser';
 export class HomeComponent {
     constructor(private title: Title) {
         this.title.setTitle(
-            'Vanessa Ortega | Frontend Developer | Angular | TypeScript | RxJS | UX | UI'
+            'Vanessa Ortega | Frontend Developer | Angular | TypeScript | RxJS | UX | UI',
         );
     }
 }

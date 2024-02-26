@@ -14,7 +14,16 @@ import { ResumeComponent } from './dumb/resume/resume.component';
 import { EmailComponent } from './dumb/email/email.component';
 
 @NgModule({
-    declarations: [AppComponent, HomeComponent, HeaderComponent, HeroComponent, SkillsComponent, ProjectsComponent, ResumeComponent, EmailComponent],
+    declarations: [
+        AppComponent,
+        HomeComponent,
+        HeaderComponent,
+        HeroComponent,
+        SkillsComponent,
+        ProjectsComponent,
+        ResumeComponent,
+        EmailComponent,
+    ],
     imports: [
         BrowserModule,
         AppRoutingModule,

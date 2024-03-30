@@ -1,4 +1,48 @@
-@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/themes/lara-light-purple/theme.css";
 @import "primeng/resources/primeng.css";
 @import "primeflex/primeflex.css";
 @import "primeicons/primeicons.css";
+@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
+
+html {
+    --space: 20px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+}
+
+h1 {
+    font-size: clamp(2rem, 10vw, 4.64rem);
+}
+
+h2 {
+    font-size: clamp(1.2rem, 5vw, 2rem);
+    font-weight: normal;
+}
+
+.margin-top {
+    margin-top: var(--space);
+}
+
+.sofia {
+    font-family: "Sofia", cursive;
+    font-size: clamp(1rem, 5vw, 1.4rem);
+}
+
+@media screen and (max-width: 768px) {
+    .hide-mobile {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .hide-desktop {
+        display: none;
+    }
+}

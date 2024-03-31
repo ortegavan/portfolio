@@ -1,0 +1,29 @@
+nav {
+    padding: 20px var(--space);
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .menu {
+    display: flex;
+    gap: var(--space);
+}
+
+nav .menu a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav .menu a:hover {
+    color: #8190a6;
+}
+
+main {
+    padding: var(--space);
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--space);
+}

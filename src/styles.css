@@ -10,11 +10,11 @@
 }
 
 html {
-    --space: 40px;
+    --space: 52px;
 }
 
 h1 {
-    font-size: clamp(2rem, 5vw, 2.6rem);
+    font-size: clamp(2rem, 5vw, 2.8rem);
     font-weight: normal;
 }
 

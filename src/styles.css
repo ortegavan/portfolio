@@ -18,6 +18,15 @@ h1 {
     font-weight: normal;
 }
 
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8190a6;
+}
+
 .borel {
     font-family: "Borel", cursive;
     font-size: clamp(1rem, 5vw, 1.2rem);
@@ -25,6 +34,13 @@ h1 {
 
 .cinza {
     color: #8190a6;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
 }
 
 @media screen and (max-width: 768px) {

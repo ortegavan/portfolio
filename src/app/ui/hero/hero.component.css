@@ -6,3 +6,8 @@ main {
     justify-content: center;
     gap: var(--space);
 }
+
+.cta {
+    display: flex;
+    gap: 12px;
+}

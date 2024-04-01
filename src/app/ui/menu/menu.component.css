@@ -10,11 +10,13 @@ nav .menu {
     gap: var(--space);
 }
 
-nav .menu a {
+nav .menu a,
+.borel a {
     color: #000;
     text-decoration: none;
 }
 
-nav .menu a:hover {
+nav .menu a:hover,
+.borel a:hover {
     color: #8190a6;
 }

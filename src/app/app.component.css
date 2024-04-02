@@ -1,0 +1,12 @@
+.up {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}

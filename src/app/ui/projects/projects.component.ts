@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { TagModule } from 'primeng/tag';
 
 @Component({
@@ -7,6 +7,7 @@ import { TagModule } from 'primeng/tag';
     imports: [TagModule],
     templateUrl: './projects.component.html',
     styleUrl: './projects.component.css',
+    changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ProjectsComponent {
     onClick(event: MouseEvent): void {

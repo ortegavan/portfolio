@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { ButtonModule } from 'primeng/button';
 
 @Component({
@@ -7,6 +7,7 @@ import { ButtonModule } from 'primeng/button';
     imports: [ButtonModule],
     templateUrl: './hero.component.html',
     styleUrl: './hero.component.css',
+    changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HeroComponent {
     goTo(event: MouseEvent, destination: string): void {

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { NavigationComponent } from '../../components/navigation/navigation.component';
 
 @Component({
@@ -7,5 +7,6 @@ import { NavigationComponent } from '../../components/navigation/navigation.comp
     templateUrl: './footer.component.html',
     styleUrl: './footer.component.css',
     imports: [NavigationComponent],
+    changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class FooterComponent {}

@@ -4,6 +4,7 @@ import { MenuComponent } from '../../ui/menu/menu.component';
 import { FeaturesComponent } from '../../ui/features/features.component';
 import { ProjectsComponent } from '../../ui/projects/projects.component';
 import { ContactComponent } from '../../ui/contact/contact.component';
+import { FooterComponent } from '../../ui/footer/footer.component';
 
 @Component({
     selector: 'app-home',
@@ -16,6 +17,7 @@ import { ContactComponent } from '../../ui/contact/contact.component';
         FeaturesComponent,
         ProjectsComponent,
         ContactComponent,
+        FooterComponent,
     ],
 })
 export class HomeComponent {}

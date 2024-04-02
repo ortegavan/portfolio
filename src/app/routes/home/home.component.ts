@@ -3,6 +3,7 @@ import { HeroComponent } from '../../ui/hero/hero.component';
 import { MenuComponent } from '../../ui/menu/menu.component';
 import { FeaturesComponent } from '../../ui/features/features.component';
 import { ProjectsComponent } from '../../ui/projects/projects.component';
+import { ContactComponent } from '../../ui/contact/contact.component';
 
 @Component({
     selector: 'app-home',
@@ -14,6 +15,7 @@ import { ProjectsComponent } from '../../ui/projects/projects.component';
         MenuComponent,
         FeaturesComponent,
         ProjectsComponent,
+        ContactComponent,
     ],
 })
 export class HomeComponent {}

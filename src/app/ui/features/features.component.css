@@ -2,3 +2,7 @@ img {
     width: 70px;
     height: 100%;
 }
+
+a {
+    color: var(--primary-color);
+}

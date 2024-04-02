@@ -1,0 +1,10 @@
+<div class="menu">
+    <a *ngFor="let item of general" (click)="onClick($event, item)">
+        {{ item.title }}
+    </a>
+    <div class="social">
+        <a *ngFor="let item of social" (click)="onClick($event, item)">
+            <i class="pi" [ngClass]="item.icon"></i>
+        </a>
+    </div>
+</div>

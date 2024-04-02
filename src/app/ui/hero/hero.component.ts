@@ -8,4 +8,9 @@ import { ButtonModule } from 'primeng/button';
     templateUrl: './hero.component.html',
     styleUrl: './hero.component.css',
 })
-export class HeroComponent {}
+export class HeroComponent {
+    irPara(ancora: string) {
+        const elementoDestino = document.getElementById('contato');
+        elementoDestino?.scrollIntoView({ behavior: 'smooth' });
+    }
+}

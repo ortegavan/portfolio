@@ -7,22 +7,3 @@ footer {
     font-size: 10px;
     color: #ee82a9;
 }
-
-.menu {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.social {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-@media screen and (max-width: 768px) {
-    .menu {
-        flex-direction: column;
-    }
-}

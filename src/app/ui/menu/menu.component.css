@@ -4,8 +4,3 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-
-nav .menu {
-    display: flex;
-    gap: var(--space);
-}

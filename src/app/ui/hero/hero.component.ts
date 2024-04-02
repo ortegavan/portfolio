@@ -9,8 +9,11 @@ import { ButtonModule } from 'primeng/button';
     styleUrl: './hero.component.css',
 })
 export class HeroComponent {
-    irPara(ancora: string) {
-        const elementoDestino = document.getElementById('contato');
-        elementoDestino?.scrollIntoView({ behavior: 'smooth' });
+    goTo(event: MouseEvent, destination: string): void {
+        event.preventDefault();
+        const element = document.querySelector(destination);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
     }
 }

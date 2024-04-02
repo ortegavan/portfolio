@@ -10,7 +10,7 @@
 }
 
 html {
-    --space: 64px;
+    --space: 120px;
 }
 
 h1 {
@@ -46,6 +46,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
+    padding: var(--space);
 }
 
 @media screen and (max-width: 768px) {

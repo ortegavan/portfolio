@@ -4,7 +4,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: var(--space);
+    gap: 32px;
 }
 
 .cta {

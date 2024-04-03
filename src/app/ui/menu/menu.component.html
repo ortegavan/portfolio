@@ -4,10 +4,14 @@
             vanessa ortega
         </a>
     </div>
-    <div class="hamburger mobile-only">
-        <a href="#">
-            <i class="pi pi-bars"></i>
-        </a>
+    <div class="hamburger">
+        <div class="mobile-only">
+            <a (click)="toggleMenu()">
+                <i class="pi pi-bars" #btnMenu></i>
+            </a>
+        </div>
+        <div class="mobile-menu hide" #menu (click)="toggleMenu()">
+            <app-navigation />
+        </div>
     </div>
-    <app-navigation />
 </nav>

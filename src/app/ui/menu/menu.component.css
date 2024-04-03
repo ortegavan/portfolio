@@ -4,3 +4,20 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+    .mobile-menu {
+        padding: 64px;
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        background-color: #fff;
+        border: solid 1px #eaeaea;
+        border-radius: 4px;
+        z-index: 1000;
+    }
+
+    .hide {
+        display: none;
+    }
+}

@@ -10,7 +10,7 @@
 }
 
 html {
-    --space: 120px;
+    --space: 80px;
 }
 
 h1 {
@@ -54,9 +54,9 @@ a:hover {
         --space: 20px;
     }
 
-    .desktop-only {
+    /* .desktop-only {
         display: none !important;
-    }
+    } */
 }
 
 @media screen and (min-width: 769px) {

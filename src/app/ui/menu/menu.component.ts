@@ -1,4 +1,9 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import {
+    ChangeDetectionStrategy,
+    Component,
+    ElementRef,
+    ViewChild,
+} from '@angular/core';
 import { NavigationComponent } from '../../components/navigation/navigation.component';
 
 @Component({
@@ -9,4 +14,14 @@ import { NavigationComponent } from '../../components/navigation/navigation.comp
     imports: [NavigationComponent],
     changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class MenuComponent {}
+export class MenuComponent {
+    @ViewChild('menu') menu!: ElementRef;
+    @ViewChild('btnMenu') btnMenu!: ElementRef;
+
+    toggleMenu() {
+        this.menu.nativeElement.classList.toggle('hide');
+
+        this.btnMenu.nativeElement.classList.toggle('pi-times');
+        this.btnMenu.nativeElement.classList.toggle('pi-bars');
+    }
+}

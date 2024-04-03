@@ -7,3 +7,12 @@ footer {
     font-size: 10px;
     color: #ee82a9;
 }
+
+@media screen and (max-width: 768px) {
+    .mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}

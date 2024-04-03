@@ -47,16 +47,13 @@ a:hover {
     justify-content: center;
     min-height: 100vh;
     padding: var(--space);
+    background-color: #fff;
 }
 
 @media screen and (max-width: 768px) {
     html {
         --space: 20px;
     }
-
-    /* .desktop-only {
-        display: none !important;
-    } */
 }
 
 @media screen and (min-width: 769px) {
